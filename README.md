@@ -5,7 +5,7 @@
 # Table of contents
 1. [Introduction](#intro)   
 2. [Install Dependencies](#install)
-3. [How to run MERN Full Stack Web App?](#howToRun)
+3. [How to run ExpressJS App?](#howToRun)
 4. [Project Demonstration](#demo)
 
 #### Project Introduction <a name="intro"></a>
