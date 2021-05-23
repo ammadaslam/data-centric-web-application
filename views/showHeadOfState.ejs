@@ -1,0 +1,18 @@
+<h2>Head Of State</h2>
+<a href="/addHeadofState">Add Head Of State</a><br><br>
+<table border="1">
+    <tr>
+    <th>CountryCode</th>
+    <th>HeadOfState</th>
+   
+    </tr>
+    <% headofstates.forEach((headsOfState) =>
+    { %>
+    <tr>
+    <td><%= headsOfState._id %></td>
+    <td><%= headsOfState.headOfState %></td>
+    
+    </tr>
+    <% }) %>
+    </table>
+    <a href="/">Home</a>

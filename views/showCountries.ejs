@@ -1,0 +1,23 @@
+<h2>Countries</h2>
+
+<a href="/addCountry">Add Country</a><br><br>
+<table border="1">
+    <tr>
+    <th>CountryCode</th>
+    <th>CountryName</th>
+    <th>CountryDetail</th>
+    <th>Update</th>
+    <th>Delete</th>
+    </tr>
+    <% countries.forEach((country) =>
+    { %>
+    <tr>
+    <td><%= country.co_code %></td>
+    <td><%= country.co_name %></td>
+    <td><%= country.co_details %></td>
+    <td><a href="/editCountry">Update</a></td>
+    <td>Delete</td
+    </tr>
+    <% }) %>
+    </table>
+    <a href="/">Home</a>
